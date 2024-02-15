@@ -197,6 +197,26 @@ nav {
   margin: auto;
 }
 
+.social {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+.social a {
+  color: grey;
+  font-weight: bold;
+}
+
+.social a:hover {
+  color: var(--secondary-color);
+}
+
+.social h4 {
+  margin-bottom: .6rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
 .discover {
   background-image: linear-gradient(
     to bottom,

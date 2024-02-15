@@ -9,24 +9,24 @@ const scrollRevealOption = {
   
   ScrollReveal().reveal(".header__container h4", {
     ...scrollRevealOption,
-    delay: 500,
+    delay: 300,
   });
   
   ScrollReveal().reveal(".header__container .btn", {
     ...scrollRevealOption,
-    delay: 1000,
+    delay: 500,
   });
   
   // about container
   ScrollReveal().reveal(".about__container .section__header", scrollRevealOption);
   ScrollReveal().reveal(".about__container .section__subheader", {
     ...scrollRevealOption,
-    delay: 500,
+    delay: 300,
   });
   
   ScrollReveal().reveal(".about__container .about__flex", {
     ...scrollRevealOption,
-    delay: 1000,
+    delay: 500,
   });
   
   ScrollReveal().reveal(".about__container .btn", {
@@ -43,12 +43,12 @@ const scrollRevealOption = {
   ScrollReveal().reveal(".discover__card__content", {
     ...scrollRevealOption,
     interval: 500,
-    delay: 200,
+    delay: 100,
   });
   
   // blogs container
   ScrollReveal().reveal(".blogs__card", {
-    duration: 1000,
+    duration: 500,
     interval: 400,
   });
   
